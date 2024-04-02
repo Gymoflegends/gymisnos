@@ -53,3 +53,31 @@ body{
 .menu_container .nvarmenu ul li a:hover{
     color: brown;
 }    
+
+.header-container{
+    text-align: center;
+}
+.header-container img{
+    width: 10%;
+    height: 70%;
+}
+.header-container h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    margin-bottom: 35px;
+}
+.header-container p{
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: brown;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    
+}
