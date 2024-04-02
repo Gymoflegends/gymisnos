@@ -27,3 +27,29 @@ body{
         align-items: center
 
 }
+.menu_container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+    justify-content:right;
+}
+
+.menu_container .nvarmenu ul li{
+    position: relative;
+    float: left;
+}
+.menu_container .nvarmenu ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+.menu_container .nvarmenu ul li a:hover{
+    color: brown;
+}    
