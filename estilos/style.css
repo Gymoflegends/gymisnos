@@ -119,3 +119,19 @@ p{
     font-size: 25px;
     color: #323337;
 }
+
+/*-------3 seccion-------- */
+.servicios{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(../img/fondo6.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    padding: 110px 0;
+}
+.contenedor_servicios{
+    text-align: center;
+}
