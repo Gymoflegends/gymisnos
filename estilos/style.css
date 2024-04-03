@@ -135,3 +135,28 @@ p{
 .contenedor_servicios{
     text-align: center;
 }
+
+.contenedor_servicios h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+.grupo_de_servicios{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.servicios-1{
+    padding: 0 100px;
+}
+.servicios-1 img{
+    width: 25px;
+    margin-bottom: 15px;
+}
+.servicios-1 h3{
+    color: #F9FAFC;
+    font-size: 18px;
+
+}
