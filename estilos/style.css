@@ -200,6 +200,12 @@ p{
     flex-wrap: wrap;
 
 }
+.footer-row img{
+    width: 10%;
+    height: 70%;
+    
+   
+}
 .footer-links{
     width: 25%;
     padding: 0 15px;
@@ -238,7 +244,22 @@ p{
     border-radius: 50%;
     color:#FFFFFF ; 
     transition: all .5s ease;
+    margin-bottom: 50px;
+    
 }
 .social-links a:hover{
     background-color: #a93226;
+}
+.ubicacion {
+    display: flex;   
+}
+.ubicacion img{
+    width: 10%;
+    height: 70%;
+   
+}
+.ubicacion h4{
+    width: 10%;
+    height: 70%;
+   
 }
