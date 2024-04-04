@@ -170,14 +170,14 @@ p{
     background-color: #E1E2E6;
 }
 .entrenadores-2{
-    background-image: url(../img/autonomo.jpeg);
+    background-image: url(../img/entrenador1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover;
     width: 50%;
 }
 .entrenadores-3{
-    background-image: url(../img/autonomo.jpeg);
+    background-image: url(../img/entrenador2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -203,7 +203,7 @@ p{
 .footer-row img{
     width: 10%;
     height: 70%;
-    
+
    
 }
 .footer-links{
