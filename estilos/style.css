@@ -18,8 +18,8 @@ body{
     background-image:linear-gradient(
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)),
-        url(../img/fondo5.jpg);
-        background-position: center bottom;
+        url(../img/fondo1png.png);
+       
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 70vh;
@@ -68,7 +68,7 @@ body{
     margin-bottom: 35px;
 }
 .header-container p{
-    font-size: 16px;
+    font-size: 30px;
     color: #C5C5C5;
     padding: 0 250px;
     margin-bottom: 25px;
@@ -79,7 +79,7 @@ body{
     background-color: brown;
     color: #F9FAFC;
     text-transform: uppercase;
-    
+    margin-left: 5%;
 }
 
 h2{
@@ -106,14 +106,18 @@ p{
 .blog-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
 .blog-1{
     padding: 15px 55px;
 }
+
 .blog-1 img{
-    width: 250px;
+    width: 300px;
     border-radius: 15px;
     margin-bottom: 15px;
+    
 }
 .blog-1 h3{
     font-size: 25px;
@@ -135,7 +139,10 @@ p{
 .contenedor_servicios{
     text-align: center;
 }
-
+.contenedor_servicios .btn-1{
+ 
+    
+}   
 .contenedor_servicios h2{
     font-size: 55px;
     line-height: 70px;
@@ -152,7 +159,7 @@ p{
     padding: 0 100px;
 }
 .servicios-1 img{
-    width: 25px;
+    width: 100px;
     margin-bottom: 15px;
 }
 .servicios-1 h3{
@@ -201,16 +208,18 @@ p{
 
 }
 .footer-row img{
-    width: 10%;
-    height: 70%;
-
-   
+  margin-top: 35px;  
+  top:0px;
+  left:0px;
+  width:10%;
+  height:10%;
 }
 .footer-links{
     width: 25%;
     padding: 0 15px;
 }
 .footer-links h3{
+    margin-top: 43px;
     font-size: 20px;
     color: #FFFDFC;
     margin-bottom: 25px;
