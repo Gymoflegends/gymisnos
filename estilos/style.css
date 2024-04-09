@@ -27,32 +27,45 @@ body{
         align-items: center
 
 }
-.menu_container{
+.menu{
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     display: flex;
-    flex-direction: row;
-    overflow: hidden;
     align-items: center;
-    justify-content:right;
+    justify-content: space-between;
+}
+.logo{
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
 }
 
-.menu_container .nvarmenu ul li{
+.menu .navbar ul li{
     position: relative;
     float: left;
 }
-.menu_container .nvarmenu ul li a{
-    font-size: 18px;
+.menu .navbar ul li a {
+    font-size: 18 px;
     padding: 20px;
-    color: #FFFDFC;
+    color: #fffdfc;
     display: block;
     font-weight: 600;
 }
-.menu_container .nvarmenu ul li a:hover{
-    color: brown;
-}    
+.menu .navbar ul li a:hover {
+    color:#a93226;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
 
 .header-container{
     text-align: center;
@@ -270,5 +283,92 @@ p{
 .ubicacion h4{
     width: 10%;
     height: 70%;
-   
+}
+/*-----res---------- */
+@media(max-width:991px){
+
+    .menu{
+        padding: 30px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+    }
+    .header-container{
+        padding: 100px 30px;
+    }
+    .header-container p{
+        padding: 0;
+    }
+    
+
+    .txt-p{
+        padding: 0;
+    }
+
+    .servicios{
+        padding: 30px;
+    }
+    .contenedor_servicios p{
+        padding: 0;
+    }
+    .grupo_de_servicios{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .servicios-1 {
+        margin-bottom: 25px;
+    }
+
+    .entrenadores{
+        flex-direction: column;
+    }
+    .entrenadores-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .entrenadores-2, .entrenadores-3{
+        display: none;
+    }
+    .blog{
+        padding: 30px;
+    }
+    .blog-content {
+        flex-direction: column;
+    }
+    .blog-1{
+        padding: 0;
+    }
+
+    .footer{
+        padding: 30px;
+    }
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
 }
